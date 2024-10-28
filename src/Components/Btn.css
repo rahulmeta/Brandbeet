@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.btn {
+    cursor: pointer;
+    height: 3.5vw;
+    width: 6vw;
+    padding: 0 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+    background-color: #E1E1E1;
+    color: black;
+}
+
+.btnCont {
+    display: flex;
+    height: 1.3vw;
+    overflow: hidden;
+    flex-direction: column;
+
+}
+
+.btnCont:hover a:nth-child(1) {
+    transform: translateY(-100%);
+}
+
+.btnCont:hover a:nth-child(2) {
+    transform: translateY(-100%);
+}

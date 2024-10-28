@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardLeft {
+    /* background-color: red; */
+    width: 50%;
+    height: 45vw;
+    padding: 0 3vw;
+}
+
+.cardLeft h1 {
+    font-weight: 400;
+    font-size: 5vw;
+    letter-spacing: -0.2vw;
+}
+
+.cardRight {
+    padding-top: 3vw;
+    /* background-color: rgb(228, 128, 128); */
+    width: 50%;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cardRight p {
+    font-size: 2.7vw;
+}
+
+.cardRight ul {
+    list-style: none;
+    margin-bottom: 2vw;
+}
+
+.cardRight ul li {
+    cursor: pointer;
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+    color: #9B9B9B;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardRight ul li:hover{
+    color: black;
+}
